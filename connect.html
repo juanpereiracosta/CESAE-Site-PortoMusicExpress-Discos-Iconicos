@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortoMusicExpress</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP ICONS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="shortcut icon" href="images/icone-vinil.svg" type="image/x-icon">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- MEU CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+
+      <!-- CABEÇALHO MOBILE -->
+      <div class="me_header_nav_mobile" style="margin-top: 6rem; width: 5rem;" >
+        <img src="images/logo.png" style="max-width: 140px;" alt="logtipo">
+      </div>
+      <div class="dropdown" style="margin-top: 2rem;">
+        <button style="background-color: #fffef5; border: none; font-size: 3rem;" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-record-circle-fill" style="margin: 0 auto;"></i>
+        </button>
+        <ul class="dropdown-menu" style="background-color: #222d1a;"  aria-labelledby="dropdownMenu2">
+            <li><a href="index.html" style="text-decoration: none;"><button style="color: #fffef5;" class="dropdown-item" type="button">HOME</button></a></li>
+            <li><a href="list.html" style="text-decoration: none;"><button style="color: #fffef5;" class="dropdown-item" type="button">LIST</button></a></li>
+            <li><a href="listen.html" style="text-decoration: none;"><button style="color: #fffef5;" class="dropdown-item" type="button">LISTEN</button></a></li>
+            <li><a href="connect.html" style="text-decoration: none;"><button style="color: #fffef5;" class="dropdown-item" type="button">CONNECT</button></a></li>
+        </ul>
+    </div>
+    
+      <nav>
+        <ul class="me_header_nav_ul">
+          <div>
+            <a href="index.html"><img src="images/logo.png" style="max-width: 140px;" alt="logtipo"></a>
+          </div>
+          <div class="me_header_nav_ul_li">
+            <li class="nav-item">
+              <a class="nav-link me_header_nav_link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me_header_nav_link" href="list.html">LIST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me_header_nav_link" href="listen.html">LISTEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me_header_nav_link" href="connect.html">CONNECT</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <h1 class="me_header_title me_header_title_connect ">Sign up for our newsletter <br> and never miss a thing.</h1>  
+    </header>
+
+    <!-- CONTEÚDO -->
+    <main>
+      <form action="connect.html" class="me_forms" method="get">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input required pattern="@" placeholder="Enter your email here" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <button type="submit" class="btn btn-primary me_forms_button_text" style=" font-family: 'Courier New', Courier, monospace; width: 100px; height: 35px; font-size: 18px;">Submit</button>
+      </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="me_footer">
+         <p>©Juan Costa - 2024</p>
+         <a href="#"><i class="bi bi-instagram" style="color: #222d1a; font-size: xx-large;"></i></a>
+         <a href="#"><i class="bi bi-linkedin" style="color: #222d1a; font-size: xx-large;"></i></a>
+      </div>
+   </footer>
+
+   <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

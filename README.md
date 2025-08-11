@@ -1,62 +1,34 @@
-# Porto Music Express
+A curated platform celebrating the greatest albums of all time, featuring detailed descriptions, artist information, and integrated Spotify playlists.
 
-Porto Music Express é um site que apresenta uma lista de 30 álbuns de música icônicos. O site foi desenvolvido com Visual Studio Code, HTML, CSS e Bootstrap.
+## About the Project
 
-## Estrutura do Site
+Porto Music Express is a responsive web application that allows music enthusiasts to:
+- Explore Iconic Albums: Discover 30 legendary albums with cover art, release years, and in-depth descriptions
+- Listen to Playlists: Access a dedicated Spotify playlist featuring tracks from all listed albums
+- Stay Connected: Subscribe to a newsletter for updates via an integrated form
 
-O site possui quatro páginas principais:
 
-1. **Home** - Apresenta uma galeria de imagens organizada com Bootstrap e CSS Grid.
-2. **List** - Exibe uma lista de álbuns em cartões verticais, organizados com display:flex. Cada cartão contém uma imagem da capa do álbum, o nome do artista, o nome do álbum e o ano de lançamento.
-3. **Listen** - Contém uma playlist incorporada do Spotify com uma música de cada álbum.
-4. **Connect** - Possui um formulário para os usuários se inscreverem em uma newsletter.
+## Key Features
 
-### Páginas
+Album Showcase:
+- Ranked list of 30 essential albums across genres
+- High-quality cover artwork for each entry
+- Detailed descriptions with historical context
+- Organized by artist, album name, and release year
 
-- **Home**
-  - Galeria de imagens feita com CSS Grid.
-  
-- **List**
-  - Cartões verticais com display:flex.
-  - Cada cartão inclui:
-    - Imagem da capa do álbum
-    - Nome do artista
-    - Nome do álbum
-    - Ano do álbum
+Music Integration:
+- Embedded Spotify playlist for instant listening
+- Curated selection of tracks from featured albums
 
-- **Listen**
-  - Playlist do Spotify incorporada.
+User Engagement
+- Newsletter signup form with email validation
+- Responsive design for all device sizes
 
-- **Connect**
-  - Formulário de inscrição para a newsletter.
 
-### Componentes Comuns
+## Technologies
 
-- **Navbar** - Presente no header de todas as páginas, criada com Bootstrap.
-- **Footer** - Presente no rodapé de todas as páginas.
-
-## Tecnologias Utilizadas
-
-- **HTML**
-- **CSS**
-- **Bootstrap**
-  - Bootstrap Icons
-- **Google Fonts**
-
-## Funcionalidades
-
-- **Responsividade** - O site é responsivo e adapta-se bem a diferentes tamanhos de ecrã.
-- **Favicon** - O site utiliza arquivo favicon.
-
-## Como Visualizar o Projeto
-
-Para visualizar o projeto localmente:
-
-1. Clone o repositório.
-2. Abra o projeto no Visual Studio Code.
-3. Abra o arquivo `index.html` no navegador para visualizar a página inicial.
-4. Navegue pelas páginas através da navbar para explorar todas as funcionalidades do site.
-
----
-
-Desenvolvido por Juan Costa.
+- HTML5: Semantic structure and content
+- CSS3: Custom styling with media queries
+- Bootstrap 5: Responsive grid system and components
+- Bootstrap Icons: Modern icon set
+- Fully responsive layout (mobile to desktop)
